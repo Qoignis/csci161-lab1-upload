@@ -1,0 +1,44 @@
+# A Warm Welcome
+
+This application will say hello to either csci160 students or csci161 students, then it will say goodbye to the same students
+
+
+
+
+## Technologies
+
+C++
+gcc
+
+
+
+
+
+## Build and Installation
+
+
+To install this application
+1) open mate terminal
+2) type sudo apt-get install A_Warm_Welcome
+3) Wait for download and installation to finish
+
+
+
+
+## Usage
+
+Instructions on how to run the application go here.
+
+
+
+
+## Contributors
+
+List of the contributors goes here.
+
+
+
+
+## License
+
+Terms and conditions or the types of licenses granted to use this application go here.
