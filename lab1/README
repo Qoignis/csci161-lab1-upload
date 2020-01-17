@@ -1,8 +1,7 @@
-# A Warm Welcome
+#Greetings
 
-This application will say hello to either csci160 students or csci161 students, then it will say goodbye to the same students
-
-
+This application will say hello to either csci160 students or csci161 students,
+then it will say goodbye to the same students
 
 
 ## Technologies
@@ -10,35 +9,75 @@ This application will say hello to either csci160 students or csci161 students, 
 C++
 gcc
 
-
-
-
-
 ## Build and Installation
 
+Build:
+There are 2 important make commands
+"make all" 
+"make clean"
 
-To install this application
-1) open mate terminal
-2) type sudo apt-get install A_Warm_Welcome
-3) Wait for download and installation to finish
+"make all" will compile the necessary files and produce for you two exes in the bin folder
+"make clean" will delete all files that were produced using the "make all" command
+
+to compile and produce only one exe, type:
+	make greetcsci160
+		or
+	make greetcsci161 
+To install this application on linux
+1) install github
+	a) open mate terminal
+	b) type: 
+		apt-get install git-all
+2) install Greetings
+	a) open mate terminal
+	b) Navigate to desired install location
+        c) type:
+		git clone https://github.com/Qoignis/csci161-lab1-upload.git
+	d) if you wish to create a shortcut to your desktop, type:
+		ln -s bin/greetcsci160 ~/Desktop
+		ln -s bin/greetcsci161 ~/Desktop
+type <install directory>/bin/greetcsci160 or <install directory>/bin/greetcsci161 to run program
 
 
 
 
 ## Usage
 
-Instructions on how to run the application go here.
-
-
+open Mate terminal
+type 
+	<install directory>/bin/greetcsci160
+this will produce the message:
+	Hello! CSCI 160
+	Goodbye! CSCI 160
+type
+	<install directory>/bin/greetcsci161
+this will produce the message:
+	Hello! CSCI 161
+	Goodbye! CSCI 161
 
 
 ## Contributors
 
-List of the contributors goes here.
-
-
-
+Madelaine Jones:
+	README
+	Makefile comments
+Kabir Humayun:
+	Source code
+	Makefile
+	Headerfile
 
 ## License
 
-Terms and conditions or the types of licenses granted to use this application go here.
+Copyright (C) 2019 Madelaine Jones
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version. 
+
+
+THERE IS NO WARRANTY FOR THIS PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDER AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS"
+WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY
+AND PERFORMANCE OF THE PROGRAM IS WITH OYOU. SHOULD THE PROGRAM PROVE DEFECTICE, YOU ASSUME THE COST
+OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
