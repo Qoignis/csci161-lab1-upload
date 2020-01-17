@@ -1,5 +1,6 @@
 #Makefile for CSCI 161 Lab1
 
+#declaring variables
 CC = g++
 WFLAG = -Wall
 CFLAG = -c
